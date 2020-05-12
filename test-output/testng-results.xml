@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23340" started-at="2020-05-12T20:48:18Z" finished-at="2020-05-12T20:48:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23340" started-at="2020-05-12T20:48:18Z" finished-at="2020-05-12T20:48:41Z">
+      <class name="com.qa.mgnrega.testcases.MISReportsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="setup" is-config="true" duration-ms="11769" started-at="2020-05-12T20:48:18Z" finished-at="2020-05-12T20:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openWebPortalPageTest()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="openWebPortalPageTest" duration-ms="9449" started-at="2020-05-12T20:48:30Z" finished-at="2020-05-12T20:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebPortalPageTest -->
+        <test-method status="PASS" signature="sendEmailToTeam()[pri:1, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="sendEmailToTeam" duration-ms="1398" started-at="2020-05-12T20:48:39Z" finished-at="2020-05-12T20:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailToTeam -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="teardown" is-config="true" duration-ms="674" started-at="2020-05-12T20:48:41Z" finished-at="2020-05-12T20:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.mgnrega.testcases.MISReportsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
