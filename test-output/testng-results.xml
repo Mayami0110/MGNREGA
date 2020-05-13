@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23340" started-at="2020-05-12T20:48:18Z" finished-at="2020-05-12T20:48:41Z">
+  <suite name="Default suite" duration-ms="24617" started-at="2020-05-13T10:49:42Z" finished-at="2020-05-13T10:50:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23340" started-at="2020-05-12T20:48:18Z" finished-at="2020-05-12T20:48:41Z">
+    <test name="Default test" duration-ms="24617" started-at="2020-05-13T10:49:42Z" finished-at="2020-05-13T10:50:07Z">
       <class name="com.qa.mgnrega.testcases.MISReportsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="setup" is-config="true" duration-ms="11769" started-at="2020-05-12T20:48:18Z" finished-at="2020-05-12T20:48:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="setup" is-config="true" duration-ms="12317" started-at="2020-05-13T10:49:42Z" finished-at="2020-05-13T10:49:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="openWebPortalPageTest()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="openWebPortalPageTest" duration-ms="9449" started-at="2020-05-12T20:48:30Z" finished-at="2020-05-12T20:48:39Z">
+        <test-method status="PASS" signature="openWebPortalPageTest()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="openWebPortalPageTest" duration-ms="9963" started-at="2020-05-13T10:49:55Z" finished-at="2020-05-13T10:50:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebPortalPageTest -->
-        <test-method status="PASS" signature="sendEmailToTeam()[pri:1, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="sendEmailToTeam" duration-ms="1398" started-at="2020-05-12T20:48:39Z" finished-at="2020-05-12T20:48:41Z">
+        <test-method status="PASS" signature="sendEmailToTeam()[pri:1, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="sendEmailToTeam" duration-ms="1617" started-at="2020-05-13T10:50:05Z" finished-at="2020-05-13T10:50:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendEmailToTeam -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="teardown" is-config="true" duration-ms="674" started-at="2020-05-12T20:48:41Z" finished-at="2020-05-12T20:48:41Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="teardown" is-config="true" duration-ms="690" started-at="2020-05-13T10:50:06Z" finished-at="2020-05-13T10:50:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

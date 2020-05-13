@@ -96,9 +96,9 @@ public class SendEmailToWithAttachement {
 			
 		this.messageBody = "<html><body> <h4>Hi All, &nbsp; </h4></body></html>";
 		this.messageBody += "<html><body><h4>Please find the Status of Web-Portal :</br></br></br></h4></body></html>";
-		this.messageBody += "<html><body><h3><u> Total Applications Pending - Application Wise  :</u><h3> </body></html>";
+	//	this.messageBody += "<html><body><h3><u> Total Applications Pending - Application Wise  :</u><h3> </body></html>";
 		this.messageBody += "<html> <head> </head> <body> <table border=\"1\" cellpadding=\"1\" cellspacing=\"1\"> <tr style=\"background-color: #a9c2e8;\">";
-		this.messageBody += "<td><strong>S No &nbsp;&nbsp;</strong></td><td><strong>Test Step on Application &nbsp;&nbsp;</strong></td><td><strong>Expected Conditons  </strong></td><td><strong>Execution Time &nbsp;&nbsp;&nbsp; </strong></td><tr>";
+		this.messageBody += "<td><strong>S No &nbsp;&nbsp;</strong></td><td><strong>Test Step &nbsp;&nbsp;</strong></td><td><strong>Expected Conditons  </strong></td><td><strong>Execution Time &nbsp;&nbsp;&nbsp; </strong></td><tr>";
 		this.messageBody += "<td>1.&nbsp;</td><td>Open Web Portal URL	&nbsp;</td><td>Navigate to Web Portal Page &nbsp;</td><td>&nbsp;" + WebPortalExecutionTime +"&nbsp; </td><tr>";
 		this.messageBody += "<td>2.&nbsp;</td><td>Click on MIS Reports &nbsp;</td><td>Navigate to MIS Reports &nbsp;</td><td>&nbsp;" + MisReportExecutionTime +"&nbsp; </td><tr></body></html>";
 	
