@@ -71,7 +71,7 @@ public class SendEmailToWithAttachement {
 	String strWebPortalExecutionTime = "";
 	 String  strMisReportExecutionTime ="";
 
-	public void SendMailMethod(String WebPortalExecutionTime, String MisReportExecutionTime , String finalStatus) {
+	public void SendMailMethod(String WebPortalExecutionTime, String MisReportExecutionTime , String finalStatus ) {
 		
 		
 		
@@ -114,8 +114,8 @@ public class SendEmailToWithAttachement {
 		this.messageBody += "<html><body><h4><font color=\"blue\">Note: This is an auto-generated mail. </br></br></br></font> </h4></body></html>";
 		this.messageBody += "<html><body><h3> Thanks & Regards,</h3></body></html>";
 		this.messageBody += "<html><body><h3> QA Team </h3></body></html>";
-		this.fileName1 = "WebPortalPage";
-		this.fileName2 = "MISReportPage";
+		//this.fileName2 = "WebPortalPage";
+		this.fileName1 = "MISReportPage";
 		
 		
 		
@@ -200,14 +200,14 @@ public class SendEmailToWithAttachement {
 			this.message.setContent(this.multipart);
 			
 		//	this.multipart.addBodyPart(this.messageBodyPart);
-			 messageBodyPart = (BodyPart) new MimeBodyPart();
+	/*		 messageBodyPart = (BodyPart) new MimeBodyPart();
 	         DataSource fds1 = new FileDataSource(strAbsolutepath + "\\Screenshot\\" + fileName2 + ".png");
 
 	         messageBodyPart.setDataHandler(new DataHandler(fds1));
 	         messageBodyPart.setHeader("Content-ID", "<image>");
 			messageBodyPart.setFileName ( fileName2 );
 	         multipart.addBodyPart(messageBodyPart);
-			this.message.setContent(this.multipart);
+			this.message.setContent(this.multipart);*/
 			
 			
 			

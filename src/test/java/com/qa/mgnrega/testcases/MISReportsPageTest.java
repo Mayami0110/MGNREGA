@@ -24,6 +24,7 @@ public class MISReportsPageTest extends TestBase {
 	private  String strMisReportStopTime = null;	
 	 float strMisReporttimeElapsed ;
 	
+	 String webPortalURL,misReportURL;
 
 	public MISReportsPageTest() {
 		super();
@@ -63,7 +64,9 @@ public class MISReportsPageTest extends TestBase {
 	
 		try {
 		
-		getScreenshot("WebPortalPage");
+		//getScreenshot("WebPortalPage");
+			
+			// webPortalURL = webportalPage.CurrentURL();
 		
 		strMisReportStartTime = testutil.start();
 				
@@ -82,6 +85,8 @@ public class MISReportsPageTest extends TestBase {
 				"MIS Report Title is not Matching");
 	*/	
 		getScreenshot("MISReportPage");
+		
+		//misReportURL = webportalPage.CurrentURL();
 		
 		strMisReportStopTime = testutil.stop();
 

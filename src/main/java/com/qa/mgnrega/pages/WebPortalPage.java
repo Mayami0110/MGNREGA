@@ -28,6 +28,8 @@ public class WebPortalPage extends TestBase {
 		
 		return driver.getTitle();
 	}
+	
+
 
 	public MISReportsPage doClickOnMISReports() {
 
@@ -35,6 +37,13 @@ public class WebPortalPage extends TestBase {
 		
 		return new MISReportsPage();
 
+	}
+
+	public String CurrentURL() {
+
+		System.out.println(driver.getCurrentUrl());
+		
+		return driver.getCurrentUrl();
 	}
 
 }
