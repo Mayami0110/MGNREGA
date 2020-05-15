@@ -100,6 +100,13 @@ public class MISReportsPageTest extends TestBase {
 	catch(Exception e)
 	{
 		System.out.println(e);
+		
+		strMisReportStopTime = testutil.stop();
+
+		strMisReporttimeElapsed = testutil.getElapsedTime();
+
+		strMisReportExecutionTime = testutil.ExecutionTime(strMisReporttimeElapsed);
+
 	}
 		
 
