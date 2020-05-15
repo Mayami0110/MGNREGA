@@ -231,7 +231,7 @@ public class SendEmailToWithAttachement {
 	class SMTPAuthenticator extends Authenticator {
 		private static final String SMTP_AUTH_USER = "mayank_mishra";
 
-		private static final String SMTP_AUTH_PASSWORD = "Cms@12345";
+		private static final String SMTP_AUTH_PASSWORD = "Cms@123456";
 
 		public PasswordAuthentication getPasswordAuthentication() {
 			String username = "mayank_mishra";
