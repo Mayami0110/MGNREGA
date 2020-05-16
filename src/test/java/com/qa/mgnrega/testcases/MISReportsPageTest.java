@@ -101,6 +101,10 @@ public class MISReportsPageTest extends TestBase {
 	{
 		System.out.println(e);
 		
+		finalStatus = " Not Working";
+		
+		getScreenshot("MISReportPage");
+		
 		strMisReportStopTime = testutil.stop();
 
 		strMisReporttimeElapsed = testutil.getElapsedTime();
