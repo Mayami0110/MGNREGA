@@ -62,6 +62,8 @@ public class TestBase {
 	}
 
 	public static String initializations() {
+		
+		try {
 
 		String browserName = prop.getProperty("browser");
 
@@ -107,6 +109,19 @@ public class TestBase {
 		strWebPortaltimeElapsed = testutil.getElapsedTime();
 
 		strWebPortalExecutionTime = testutil.ExecutionTime(strWebPortaltimeElapsed);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+						
+			strWebPortalStopTime = testutil.stop();
+			
+			strWebPortaltimeElapsed = testutil.getElapsedTime();
+
+			strWebPortalExecutionTime = testutil.ExecutionTime(strWebPortaltimeElapsed);
+
+		}
+
 
 		return strWebPortalExecutionTime;
 	}
