@@ -137,7 +137,7 @@ public class SendEmailToWithAttachement {
 	
 	public List<String> FetchEmails(String strDataFileName, String strElement,String Methodname) 
 	{
-		List<String> array= new ArrayList();
+		List<String> array= new ArrayList<String>();
 
 		try {
 			int columnCount = 0;
