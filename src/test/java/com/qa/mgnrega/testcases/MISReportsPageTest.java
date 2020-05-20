@@ -1,6 +1,5 @@
 package com.qa.mgnrega.testcases;
 
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -84,8 +83,8 @@ public class MISReportsPageTest extends TestBase {
 	/*	Assert.assertEquals(misReportPageTitle, prop.getProperty("misReportsPageTitle"),
 				"MIS Report Title is not Matching");
 	*/	
-		getScreenshot("MISReportPage");
-		
+/*		getScreenshot("MISReportPage");
+*/		
 		//misReportURL = webportalPage.CurrentURL();
 		
 		strMisReportStopTime = testutil.stop();
@@ -94,6 +93,7 @@ public class MISReportsPageTest extends TestBase {
 
 		strMisReportExecutionTime = testutil.ExecutionTime(strMisReporttimeElapsed);
 
+		getScreenshot("MISReportPage");
 		
 		
 	}
@@ -103,14 +103,17 @@ public class MISReportsPageTest extends TestBase {
 		
 		finalStatus = " Not Working";
 		
-		getScreenshot("MISReportPage");
-		
+/*		getScreenshot("MISReportPage");
+*/		
 		strMisReportStopTime = testutil.stop();
 
 		strMisReporttimeElapsed = testutil.getElapsedTime();
 
 		strMisReportExecutionTime = testutil.ExecutionTime(strMisReporttimeElapsed);
 
+		getScreenshot("MISReportPage");
+
+	
 	}
 		
 
