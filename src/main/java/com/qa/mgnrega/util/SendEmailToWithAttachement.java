@@ -93,7 +93,7 @@ public class SendEmailToWithAttachement {
 		
 		
 		
-		this.subject = "Check Status of WebPortal/MIS Portal  - " + dateTime + "  STATUS : " + finalStatus ; ;
+		this.subject = "Status of WebPortal/MIS Portal - " + dateTime + "  STATUS : " + finalStatus ; ;
 			
 		this.messageBody = "<html><body> <h4>Hi All, &nbsp; </h4></body></html>";
 		this.messageBody += "<html><body><h4>Please find the Status of Web-Portal :</br></br></br></h4></body></html>";
