@@ -15,6 +15,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -69,8 +70,14 @@ public class TestBase {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 
+			ChromeOptions opt = new ChromeOptions();
+			opt.addArguments("window-size=1400,800");
+
+			opt.addArguments("--headless");
+
 			WebDriverManager.chromedriver().version("2.40").setup();
-			driver = new ChromeDriver();
+			
+			driver = new ChromeDriver(opt);
 
 		}
 
