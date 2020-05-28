@@ -75,10 +75,41 @@ public class MISReportsPageTest extends TestBase {
 		String misReportPageTitle = misReportPage.validateMISReportsPageTitle();
 		
 		if(misReportPageTitle.equalsIgnoreCase(prop.getProperty("misReportsPageTitle")))
+		{
+			finalStatus = "Working";
+			
+			strMisReportStopTime = testutil.stop();
+
+			strMisReporttimeElapsed = testutil.getElapsedTime();
+
+			strMisReportExecutionTime = testutil.ExecutionTime(strMisReporttimeElapsed);
+
+			getScreenshot("MISReportPage");
+			
+			System.out.println("Working So Mail Not sent");
+
+		
+		}
 				
-				finalStatus = "Working";
 				
-		else finalStatus = " Not Working";
+				
+		else {
+			
+			finalStatus = " Not Working";
+			
+			strMisReportStopTime = testutil.stop();
+
+			strMisReporttimeElapsed = testutil.getElapsedTime();
+
+			strMisReportExecutionTime = testutil.ExecutionTime(strMisReporttimeElapsed);
+
+			getScreenshot("MISReportPage");
+			
+			SendEmailToWithAttachement sendEmailtTo = new SendEmailToWithAttachement();
+			sendEmailtTo.SendMailMethod(strWebPortalExecutionTime, strMisReportExecutionTime ,finalStatus);
+			
+			
+		}
 		
 	/*	Assert.assertEquals(misReportPageTitle, prop.getProperty("misReportsPageTitle"),
 				"MIS Report Title is not Matching");
@@ -87,13 +118,13 @@ public class MISReportsPageTest extends TestBase {
 */		
 		//misReportURL = webportalPage.CurrentURL();
 		
-		strMisReportStopTime = testutil.stop();
+		/*strMisReportStopTime = testutil.stop();
 
 		strMisReporttimeElapsed = testutil.getElapsedTime();
 
 		strMisReportExecutionTime = testutil.ExecutionTime(strMisReporttimeElapsed);
 
-		getScreenshot("MISReportPage");
+		getScreenshot("MISReportPage");*/
 		
 		
 	}
@@ -112,20 +143,25 @@ public class MISReportsPageTest extends TestBase {
 		strMisReportExecutionTime = testutil.ExecutionTime(strMisReporttimeElapsed);
 
 		getScreenshot("MISReportPage");
-
-	
-	}
-		
-
-	}
-	
-	
-	
-	@Test(priority=1)
-	public void sendEmailToTeam() {
 		
 		SendEmailToWithAttachement sendEmailtTo = new SendEmailToWithAttachement();
 		sendEmailtTo.SendMailMethod(strWebPortalExecutionTime, strMisReportExecutionTime ,finalStatus);
+
+	
+	}
+		
+
+	}
+	
+	
+	
+	//@Test(priority=1)
+	public void sendEmailToTeam() {
+		
+		System.out.println("Mail will b sent");
+		/*
+		SendEmailToWithAttachement sendEmailtTo = new SendEmailToWithAttachement();
+		sendEmailtTo.SendMailMethod(strWebPortalExecutionTime, strMisReportExecutionTime ,finalStatus);*/
 				
 	}
 	

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20216" started-at="2020-05-14T13:13:43Z" finished-at="2020-05-14T13:14:04Z">
+  <suite name="Default suite" duration-ms="19719" started-at="2020-05-28T06:00:29Z" finished-at="2020-05-28T06:00:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20216" started-at="2020-05-14T13:13:43Z" finished-at="2020-05-14T13:14:04Z">
+    <test name="Default test" duration-ms="19719" started-at="2020-05-28T06:00:29Z" finished-at="2020-05-28T06:00:49Z">
       <class name="com.qa.mgnrega.testcases.MISReportsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="setup" is-config="true" duration-ms="13013" started-at="2020-05-14T13:13:43Z" finished-at="2020-05-14T13:13:56Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="setup" is-config="true" duration-ms="14367" started-at="2020-05-28T06:00:29Z" finished-at="2020-05-28T06:00:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="openWebPortalPageTest()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="openWebPortalPageTest" duration-ms="6534" started-at="2020-05-14T13:13:56Z" finished-at="2020-05-14T13:14:03Z">
+        <test-method status="PASS" signature="openWebPortalPageTest()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="openWebPortalPageTest" duration-ms="4769" started-at="2020-05-28T06:00:43Z" finished-at="2020-05-28T06:00:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebPortalPageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="teardown" is-config="true" duration-ms="641" started-at="2020-05-14T13:14:03Z" finished-at="2020-05-14T13:14:04Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.mgnrega.testcases.MISReportsPageTest@5ad851c9]" name="teardown" is-config="true" duration-ms="567" started-at="2020-05-28T06:00:48Z" finished-at="2020-05-28T06:00:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
