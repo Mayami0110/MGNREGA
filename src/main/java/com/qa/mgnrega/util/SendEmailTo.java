@@ -152,11 +152,11 @@ public class SendEmailTo {
 	class SMTPAuthenticator extends Authenticator {
 		private static final String SMTP_AUTH_USER = "mayank_mishra";
 
-		private static final String SMTP_AUTH_PASSWORD = "Esic@12345";
+		private static final String SMTP_AUTH_PASSWORD = "Esic@123456";
 
 		public PasswordAuthentication getPasswordAuthentication() {
 			String username = "mayank_mishra";
-			String password = "Esic@12345";
+			String password = "Esic@123456";
 			return new PasswordAuthentication(username, password);
 		}
 	}
