@@ -71,10 +71,15 @@ public class TestBase {
 		if (browserName.equalsIgnoreCase("chrome")) {
 
 			ChromeOptions opt = new ChromeOptions();
+		
+			opt.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+			
 			opt.addArguments("window-size=1400,800");
 
 			opt.addArguments("--headless");
 
+			//WebDriverManager.chromedriver().version("2.40").setup();
+				
 			WebDriverManager.chromedriver().version("2.40").setup();
 			
 			driver = new ChromeDriver(opt);
